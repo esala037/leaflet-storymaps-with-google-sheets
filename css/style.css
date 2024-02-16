@@ -1,3 +1,7 @@
+:root {
+ /* variables go here */
+  --golden: #ECC30B;
+
 body {
   padding: 0px;
   margin: 0px;
@@ -159,7 +163,7 @@ a.source:visited {
 #header {
   padding: 5px 0;
   text-align: center;
-  color: #333;
+  background-color: var(--golden);
 }
 
 /* Storymap title & subtitle */
